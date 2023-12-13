@@ -1,0 +1,187 @@
+section#skill{
+    background-color: white;  
+    /*완성되면 백그라운드 지우기  f4f4f4 */
+   margin: 0 auto;
+   display: flex;
+   /* flex-direction: column;   */
+    /*  flex의 방향을 수직으로  */
+   justify-content: center;
+   align-items: center;
+   height: 900px;
+   /* border: solid; */
+}
+
+section#skill .wrap{
+    font-size: 25px;
+    height: 900px;
+}
+
+section#skill .wrap h2{
+    line-height : normal;
+    /*  행 간격  */
+    letter-spacing : .3em;
+    /*  글자 간격  */
+    padding-top: 70px;
+    font-size: 50px;
+    font-weight: 1000;
+    color: #532706;
+}
+
+
+   /*  전체 div  */
+section#skill .wrap .div1{
+    display: flex;
+    margin-top: 100px;
+}
+
+
+/*  자격증 div  */
+section#skill .wrap .div1 .licence{
+    width: 40%;
+    /*! border: solid; */
+}
+section#skill .wrap .div1 .licence h3{
+}
+section#skill .wrap .div1 .licence ul{
+    padding-left: 146px;
+    padding-top : 15px;
+}
+section#skill .wrap .div1 .licence ul li{
+    padding-top: 25px;
+    line-height : normal;
+    /*  행 간격  */
+    letter-spacing : .3em;
+    /*  글자 간격  */
+    font-size: 30px;
+    color: #532706;
+}
+section#skill .wrap .div1 .licence ul li::before{
+    content: "*";
+    padding-right: 15px;
+}
+
+
+section#skill .wrap .div1 .tool{
+    width: 60%;
+}
+   /*  코딩 툴 div  */
+section#skill .wrap .div1 .tool .code{
+    /*! border: solid orange; */
+}
+
+section#skill .wrap .div1 .tool .code h3{
+}
+
+section#skill .wrap .div1 .tool .code ul{
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 634px;
+    /*! background-color: #eee; */
+    margin-left: 115px;
+}
+section#skill .wrap .div1 .tool .code ul li{
+    font-size: 25px;
+    color: #532706;
+    text-align: center;
+    
+    padding-top: 20px;
+}
+section#skill .wrap .div1 .tool .code ul li::before{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 75px;
+    /*! background-color: rgb(173, 173, 173); */
+    /*! border-radius: 75px; */
+    margin-bottom: 5px;
+    margin-top: 15px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* HTML5 */
+section#skill .wrap .div1 .tool .code ul li:nth-child(1)::before {
+    background-image: url(../img/html.png);
+}
+/* CSS3 */
+section#skill .wrap .div1 .tool .code ul li:nth-child(2)::before {
+    background-image: url(../img/css.png);
+}
+/* jQuery */
+section#skill .wrap .div1 .tool .code ul li:nth-child(3)::before {
+    background-image: url(../img/jquery.png);
+}
+/* Javascript */
+section#skill .wrap .div1 .tool .code ul li:nth-child(4)::before {
+    background-image: url(../img/js.png);
+}
+/* 젠코딩 */
+section#skill .wrap .div1 .tool .code ul li:nth-child(5)::before {
+    background-image: url(../img/zen.png);
+}
+/* SASS */
+section#skill .wrap .div1 .tool .code ul li:nth-child(6)::before {
+    background-image: url(../img/sass.png);
+}
+/* 웹표준 */
+section#skill .wrap .div1 .tool .code ul li:nth-child(7)::before {
+    background-image: url(../img/w3c.jpg);
+}
+/* 웹접근성 */
+section#skill .wrap .div1 .tool .code ul li:nth-child(8)::before {
+    background-image: url(../img/webmark.png);
+}
+/* 카카오오븐 */
+section#skill .wrap .div1 .tool .code ul li:nth-child(9)::before {
+    background-image: url(../img/ov.png);
+}
+/* 비주얼스튜디오 */
+section#skill .wrap .div1 .tool .code ul li:nth-child(10)::before {
+    background-image: url(../img/vv.png);
+}
+
+
+
+   /*  디자인 툴 div  */
+section#skill .wrap .div1 .tool .design{
+    margin-top: 60px;
+}
+
+section#skill .wrap .div1 .tool .design h3{
+}
+
+section#skill .wrap .div1 .tool .design ul{
+    display: flex;
+    gap:200px;
+    justify-content: center;
+    /*! background-color: #eee; */
+}
+section#skill .wrap .div1 .tool .design ul li{
+    font-size: 25px;
+    color: #532706;
+    text-align: center;
+    padding-top: 20px;
+}
+section#skill .wrap .div1 .tool .design ul li::before{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 80px;
+    /*! background-color: rgb(173, 173, 173); */
+    /*! border-radius: 75px; */
+    margin-bottom: 5px;
+    margin-top: 15px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* HTML5 */
+section#skill .wrap .div1 .tool .design ul li:nth-child(1)::before {
+    background-image: url(../img/ps.png);
+}
+/* CSS3 */
+section#skill .wrap .div1 .tool .design ul li:nth-child(2)::before {
+    background-image: url(../img/ai.png);
+}
