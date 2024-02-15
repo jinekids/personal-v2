@@ -35,7 +35,7 @@
 <!-- /portfolio/ -->
 <div align= "center">
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🗂 Portfolio </h2> <br>
-    <a  href="https://www.accuniq.com/kr/index.php">
+    <a  href="https://www.accuniq.com/kr/index.php" target="_blank">
         <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator">
     </a>
     <a  href="https://www.lpoint.com/"></a>
