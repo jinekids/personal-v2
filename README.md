@@ -4,13 +4,13 @@
 
 <!-- /project/ -->
 <div align= "center"> 
-  <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 프로젝트 목표 </h2>  
+  <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 👍 프로젝트 목표 </h2>  
   <div style="font-weight: 700; font-size: 15px; text-align: center; color: #282d33;"> 취업을 위한 포트폴리오 제작, 자신의 작업을 전시하고 홍보 </div> 
 </div>
 
 <!-- /section/ -->
 <div align= "center">
-  <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">기능 및 섹션</h2>
+  <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 📑 기능 및 섹션 </h2>
   <p> 자기소개 페이지 / 포트폴리오 작품 게시 / 연락처 정보 / 이력서 다운로드</p>
 </div>
 
@@ -21,26 +21,34 @@
       <p align="center"> 
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> 
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> 
-          <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> 
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/>
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/>          
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> 
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> 
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> 
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> 
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> 
+          <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> 
       </p>
   </div>
 </div>
 
 <!-- /portfolio/ -->
 <div align= "center">
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> Portfolio </h2> <br>
+    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🗂 Portfolio </h2> <br>
+    <a  href="https://www.accuniq.com/kr/index.php">
+        <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator">
+    </a>
+    <a  href="https://www.lpoint.com/"></a>
+    <a  href="http://hbpaper.kr/"></a>
+    <a  href="https://hitejinro.com/"></a>
+    <a  href="https://www.hectohealthcare.com/corp"></a>
+    <a  href="https://twoslashfour.com/"></a>
 </div>
 
 
 <!-- /next plan/ -->
 <div align= "center">
-  <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> Next Plan </h2> <br>
+  <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 📚 Next Plan </h2> <br>
   <p>(추가적인 기능 개발, 디자인 개선, 사용자 피드백 수렴 등)</p>
 </div>
 
