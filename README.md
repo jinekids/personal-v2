@@ -78,15 +78,4 @@
 </div>
 
 
-## 스크린샷 또는 데모(포트폴리오 웹사이트의 스크린샷을 추가)
-![image](https://github.com/jinekids/personal-v2/assets/150096604/cdf5a998-2dd4-4999-ac76-af88ad8e2c10)
-![image](https://github.com/jinekids/personal-v2/assets/150096604/92914aef-ef40-4377-9b47-4b804458ad67)
-
-![image](https://github.com/jinekids/personal-v2/assets/150096604/762ba90f-5d71-4d59-b84a-69513f3e4d8a)
-![image](https://github.com/jinekids/personal-v2/assets/150096604/9b364205-59df-4f1c-aa6f-382bfd48fba3)
-
-      
-
-
-
 
