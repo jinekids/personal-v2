@@ -35,14 +35,23 @@
 <!-- /portfolio/ -->
 <div align= "center">
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🗂 Portfolio </h2> <br>
-    <a  href="https://www.accuniq.com/kr/index.php" target="_blank">
-        <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator">
-    </a>
-    <a  href="https://www.lpoint.com/"></a>
-    <a  href="http://hbpaper.kr/"></a>
-    <a  href="https://hitejinro.com/"></a>
-    <a  href="https://www.hectohealthcare.com/corp"></a>
-    <a  href="https://twoslashfour.com/"></a>
+    <a  href="https://www.accuniq.com/kr/index.php" target="_blank"></a>
+    <a  href="https://www.lpoint.com/" target="_blank"></a>
+    <a  href="http://hbpaper.kr/" target="_blank"></a>
+    <a  href="https://hitejinro.com/" target="_blank"></a>
+    <a  href="https://www.hectohealthcare.com/corp" target="_blank"></a>
+    <a  href="https://twoslashfour.com/" target="_blank"></a>
+
+<div style="margin: 0 auto; text-align: center;" align= "center">
+    
+![image](https://github.com/jinekids/personal-v2/assets/150096604/cdf5a998-2dd4-4999-ac76-af88ad8e2c10)
+![image](https://github.com/jinekids/personal-v2/assets/150096604/92914aef-ef40-4377-9b47-4b804458ad67)
+![image](https://github.com/jinekids/personal-v2/assets/150096604/762ba90f-5d71-4d59-b84a-69513f3e4d8a)
+![image](https://github.com/jinekids/personal-v2/assets/150096604/9b364205-59df-4f1c-aa6f-382bfd48fba3)
+
+</div>
+
+
 </div>
 
 
@@ -68,12 +77,6 @@
   <div align= "center">  </div> 
 </div>
 
-
-## 포트폴리오 작품
-- 셀바스헬스케어 [http://testyong.dothome.co.kr/pf1/main.html](https://www.gdweb.co.kr/sub/view.asp?Txt_fgbn=5&str_no=20485)
-- L.POINT https://www.lpoint.com/
-- HB페이퍼 http://hbpaper.kr/
-- Hitejinro https://hitejinro.com/
 
 ## 스크린샷 또는 데모(포트폴리오 웹사이트의 스크린샷을 추가)
 ![image](https://github.com/jinekids/personal-v2/assets/150096604/cdf5a998-2dd4-4999-ac76-af88ad8e2c10)
