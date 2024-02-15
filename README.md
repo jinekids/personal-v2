@@ -35,12 +35,24 @@
 <!-- /portfolio/ -->
 <div align= "center">
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🗂 Portfolio </h2> <br>
-    <a  href="https://www.accuniq.com/kr/index.php" target="_blank"></a>
-    <a  href="https://www.lpoint.com/" target="_blank"></a>
-    <a  href="http://hbpaper.kr/" target="_blank"></a>
-    <a  href="https://hitejinro.com/" target="_blank"></a>
-    <a  href="https://www.hectohealthcare.com/corp" target="_blank"></a>
-    <a  href="https://twoslashfour.com/" target="_blank"></a>
+    <a  href="https://www.accuniq.com/kr/index.php" target="_blank" style="white-space:none; border:none;">
+        <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg">
+    </a>
+    <a  href="https://www.lpoint.com/" target="_blank" style="white-space:normal;">
+        <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg">
+    </a>
+    <a  href="http://hbpaper.kr/" target="_blank" style="white-space:normal;">
+        <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg">
+    </a>
+    <a  href="https://hitejinro.com/" target="_blank" style="white-space:normal;">
+        <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg">
+    </a>
+    <a  href="https://www.hectohealthcare.com/corp" target="_blank" style="white-space:normal;">
+        <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg">
+    </a>
+    <a  href="https://twoslashfour.com/" target="_blank" style="white-space:normal;">
+        <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg">
+    </a>
 
 <div style="margin: 0 auto; text-align: center;" align= "center">
     
