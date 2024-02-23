@@ -113,7 +113,7 @@ section#about .wrap .div1 .ainfo .subinfo > li{
     background-color: white;
     box-shadow: aqua;
     /*! box-shadow: 8px 10px 20px 0px rgba(173, 173, 173); */
-    box-shadow: 8px 10px 20px 0px rgba(255, 0, 121, 0.5);
+    /*! box-shadow: 8px 10px 20px 0px rgba(255, 0, 121, 0.5); */
 }
 section#about .wrap .div1 .ainfo .subinfo > li:nth-child(3){
     font-size: 25px;
