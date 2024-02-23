@@ -18,7 +18,19 @@
     <!-- 프리텐다드-->
     <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
 
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
 
+            $("#portfolio .wrap .web .pf01 ul li").hover(
+                function(){ //mouseenter  .hoverColor
+                    //마우스 올린 li에 클래스 지정
+                    $(this).children("section#portfolio .wrap .web .pf01 ul li a").toggleClass("hoverColor");
+                }
+            ); 
+
+        });
+    </script>
 
 </head>
 
@@ -87,7 +99,7 @@
                     <div class="ainfo">
                             <ul class="subinfo flex">
                                 <li class="block borderR30">
-                                    <h3>I'm</h3>
+                                    <h3>I'm 👋</h3>
                                     <p>
                                         일상에서 여러 홈페이지 및 UX/UI 디자인을 접하며 '나도 사용자 모두가 쉽고 편하고 
                                         좋아하는 디자인을 하고 싶다' 고 생각이 들었고,<br>
@@ -95,7 +107,7 @@
                                     </p>
                                 </li>
                                 <li class="block borderR30">
-                                    <h3>Edu</h3>
+                                    <h3>Edu 📚</h3>
                                     <p>
                                         22.04 - 23.04 아이엔시솔루션 개발연구소 
                                     </p>
@@ -104,7 +116,7 @@
                                     </p>
                                 </li>
                                 <li class="block borderR30">
-                                    <h3>skill < / ></h3>
+                                    <h3>skill 🛠</h3>
                                     <ul class="flex">
                                         <li>HTML5</li>
                                         <li>CSS3</li>
@@ -180,36 +192,39 @@
                     <article class="pf01">
                         <ul class="h1 flex column">
                             <li>
-                                <a target="_blank" href="https://www.accuniq.com/kr/index.php">Accuniq
-                                    <p class="p">html/css | 기여도 100% | more code</p>
-                                </a>
+                                <a target="_blank" href="https://jinekids.github.io/pf1-accuniq/">Accuniq</a>
+                                <p class="p">html/css | 기여도 100% | <a target="_blank" href="https://www.accuniq.com/kr/index.php"> origin site</a></p>
                             </li>
                             <li>
-                                <a target="_blank" href="https://www.lpoint.com/">Lpoint
-                                    <p class="p">html/css | 기여도 100% | more code</p>
-                                </a>
+                                <a target="_blank" href="https://jinekids.github.io/pf2-lpoint/">Lpoint</a>
+                                <p class="p">html/css | 기여도 100% | <a target="_blank" href="https://www.lpoint.com/"> origin site</a></p>
                             </li>
                             <li>
-                                <a target="_blank" href="https://www.hectohealthcare.com/corp">hectohealthcare
-                                    <p class="p">html/css | 기여도 100% | more code</p>
-                                </a>
+                                <a target="_blank" href="https://jinekids.github.io/pf3-HBpaper/">HBpaper</a>
+                                <p class="p">html/css | 기여도 100% | <a target="_blank" href="http://hbpaper.kr/"> origin site</a></p>
                             </li>
                             <li>
-                                <a href="">etc
-                                    <p class="p">html/css | 기여도 100% | more code</p>
-                                </a>
+                                <a target="_blank" href="https://jinekids.github.io/pf5-Hitejinro_include/">Hitejinro</a>
+                                <p class="p">html/css | 기여도 100% | 반응형 O | <a target="_blank" href="https://hitejinro.com/"> origin site</a></p>
                             </li>
                             <li>
-                                <a href="">etc
-                                    <p class="p">html/css | 기여도 100% | more code</p>
-                                </a>
+                                <a target="_blank" href="https://jinekids.github.io/pfa-Hecto-Healthcare/">hectohealthcare</a>
+                                <p class="p">html/css | 기여도 100% | <a target="_blank" href="https://www.hectohealthcare.com/corp"> origin site</a></p>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://jinekids.github.io/pfb-Twoslashfour/">Twoslashfour</a>
+                                <p class="p">html/css | 기여도 100% | <a target="_blank" href="https://twoslashfour.com/"> origin site</a></p>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://mkt.naver.com/p1/jrschool">jrschool(쥬니버스쿨)</a>
+                                <p class="p">html/css | 기여도 100% | <a target="_blank" href="https://mkt.naver.com/p1/jrschool"> origin site</a></p>
                             </li>
                         </ul>
                         <p class="p hide">대표적으로 보여드린 5개의 작업물 포함 총 n개의 작업을 했습니다.</p>
                     </article>
                 </div>
 
-                <div class="design">
+                <div class="design hide">
                     <article class="pf02">
                         <ul class="flex ">
                             <li class="">
@@ -250,7 +265,7 @@
                 <div class="address flex between">
                     <div class="email flex column center">
                         <p>sibadubu0707@gmail.com</p>
-                        <p>010-6509-0406</p>
+                        <p class="hide">010-6509-0406</p>
                     </div>
 
                     <div class="kakaoqr">
