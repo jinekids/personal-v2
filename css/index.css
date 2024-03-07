@@ -61,8 +61,10 @@ header .wrap>a{
 
 /* 타이틀 영역 */
 div#title{
-  background-color: #000;  
+  background-color: #000;
+  position: relative;
 }
+
 
 div#title div.wrap{
   text-align: center;
@@ -72,7 +74,6 @@ div#title div.wrap{
   justify-content: center;
   align-items: center;
 }
-
 div#title div.wrap h2{
   /*   margin-left: 10%; */
   /*! padding-top: 10%; */
@@ -87,7 +88,7 @@ div#title div.wrap h3{
   /*   margin-left: 10%; */
   /* padding-top: 10%; */
     font-size: 300px;
-  /*   font-weight : bold; */
+  font-weight : 500;
   /*! background-image: url(../img/y2.png); */
   -webkit-text-stroke: 2px #ff0079;
   transform: translateY(-140px);

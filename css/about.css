@@ -49,7 +49,7 @@ section#about .wrap .div1{
 section#about .wrap .div1 .aimg{
     /*! border: solid burlywood; */
     width: 35%;
-    padding-top: 50px;
+    /*! padding-top: 50px; */
     position: relative;
 }
 section#about .wrap .div1 .aimg::before{
@@ -59,8 +59,8 @@ section#about .wrap .div1 .aimg::before{
     /*! display: inline-block; */
     background-color: #ff0079;
     position: absolute;
-    left: 60px;
-    top: 230px;
+    left: 55px;
+    top: 180px;
     border-radius: 50%;
     transform: rotate(-25deg);
 }
@@ -81,17 +81,44 @@ section#about .wrap .div1 .aimg .hash li{
     /*! margin-top: 70px; */
 /*     margin-left: 20px; */
     font-weight: 500;
-    line-height : normal;
+    line-height : 1.5;
     letter-spacing : .1em;  
     margin-left: 20px;
 }
-section#about .wrap .div1 .aimg ul li:before{
+section#about .wrap .div1 .aimg ul li:not(:nth-child(6)):before{
     content: "#";
     font-size: 30px;
     color: #d2d2d2;
 }
-
-
+section#about .wrap .div1 .aimg .hash li a{
+    color: #d2d2d2;
+    line-height: 1.5;
+    width: 115px;
+    display: inline-block;
+    margin-left: -5px;
+    text-align: center;
+    position: relative;
+}
+section#about .wrap .div1 .aimg ul li a:before{
+    content: "#";
+    font-size: 30px;
+    /*! color: #white; */
+}
+section#about .wrap .div1 .aimg ul li a:after{
+    content: "";
+    font-size: 0px;
+    color: #white;
+    width: 200px;
+    height: 20px;
+    background-image: url(../img/water-solid.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    background-position: 50%;
+    z-index: -1;
+    bottom: -3px;
+    left: -41px;
+}
 
     /* 부연 설명 부분 */
 section#about .wrap .div1 .ainfo{
