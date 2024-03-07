@@ -28,16 +28,16 @@ header h1{
 header a{
 }
 
-header ul{
+header ul.gnb{
   display: flex;
   gap:30px;
 }
 
-header ul li{
+header ul.gnb li{
   
 }
 
-header ul li a{
+header ul.gnb li a{
 
   color: white;
 }
@@ -52,6 +52,10 @@ header .wrap>a{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.currentGnb{
+  color:#ff0079 !important;
+  transform: scale(1.2);
 }
 
 

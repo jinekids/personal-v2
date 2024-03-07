@@ -1,0 +1,50 @@
+@media screen and (max-width:1440px){
+
+}
+
+@media screen and (max-width:1200px){
+
+}
+
+
+
+/* ---------------------------------------------------- */
+
+@media screen and (max-width:768px){
+  header{
+  padding-top: 15px;
+  }
+  header .wrap{
+    width: 100%;
+    justify-content: center;
+  }
+  header ul.gnb{
+
+  }
+  
+  
+  /* -------------- title -------------- */
+  div#title{
+    
+  }
+  div#title div.wrap{
+    
+  }
+  div#title div.wrap h2{
+    font-size: 260px;
+    position: relative;
+    left: -520px;
+    transform: initial;
+    top: 0;
+  }
+  div#title div.wrap h3{
+    font-size: 112px;
+     position: relative;
+     left: -427px;
+     transform: initial;
+     top: -50px;
+  }
+  div#title div.wrap p{
+    
+  }
+}

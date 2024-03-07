@@ -1,7 +1,7 @@
 section#about{
     background-color: #000;  
     /*완성되면 백그라운드 지우기*/
-    padding: 250px 0 0 0;
+/*     padding: 250px 0 0 0; */
     display: flex;
     /* flex-direction: column;   */
     /*  flex의 방향을 수직으로  */
@@ -10,6 +10,7 @@ section#about{
     height: 100vh;
     /* border: solid; */
     min-height: 900px;
+      /*! outline: 1px solid #eee; */
 }
 
 

@@ -7,10 +7,11 @@ section#portfolio{
     /*  flex의 방향을 수직으로  */
    justify-content: center;
    /*! align-items: center; */
-   height: 100%;
+   /*! height: 100%; */
 /*    border: solid; */
     min-height: 900px;
     position: relative;
+    /*! outline: 3px solid red; */
 }
 
 section#portfolio .wrap{
@@ -27,17 +28,17 @@ section#portfolio .wrap .web{
     /*! position: relative; */
 }
 section#portfolio .wrap .web::before{
-    content: "portfolio (web)";
+    content: "Portfolio";
     background-color: #ff006c;
-    padding: 25px 50px;
+    padding: 25px 70px;
     color: white;
-    font-weight: 500;
     transform: rotate(-90deg);
     position: absolute;
-    left: -151px;
-    top: 151px;
+    left: -130px;
+    top: 210px;
     font-size: 40px;
     font-weight: 1000;
+    letter-spacing: 4px;
 }
 section#portfolio .wrap .web .pf01{
     padding: calc((100% - 1000px) / 4) 0;
