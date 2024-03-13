@@ -5,6 +5,7 @@
   }
   .wrap{
     width: 100%;
+    
   }
 }
 
@@ -348,6 +349,7 @@
     flex-direction: column;
     width: 100%;
     padding-top: 6vh;
+/*   test   */
   }
   section#about .wrap .div1 .aimg{
     width: 100%;
