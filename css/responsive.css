@@ -320,19 +320,20 @@
     right: 0;
   }
   div#title div.wrap p{
-    font-size: 5vw;
+    font-size: 4vw;
     position: absolute;
     bottom: 20vh;
   }
 
+
   /* -------------- about -------------- */
   section#about{
     outline: 1px solid aliceblue;
-    min-height: 100%;
-    height: calc(100% + 50px) !important;
+    /*! min-height: 100%; */
+    height: calc(100% + 20%) !important;
   }
   section#about .wrap{
-    height: 100%;
+    height: calc(100% + 20%) !important;
     /*! min-height: 500px; */
   }
   section#about .wrap h2{
@@ -346,40 +347,45 @@
     box-sizing: border-box;
     flex-direction: column;
     width: 100%;
-    padding-top: 2vh;
+    padding-top: 6vh;
   }
   section#about .wrap .div1 .aimg{
     width: 100%;
     display: flex;
-    padding-top: 3vh;
+    margin-top: 3vh;
     height: calc(100% - 74%);
+    justify-content: space-between;
   }
   section#about .wrap .div1 .aimg figure{
     width: 40%;
     position: relative;
     margin: 0 auto;
+    margin-left: 0;
   }
   section#about .wrap .div1 .aimg figure::before{
-    width: 78%;
-    height: 45%;
-    top: 50%;
-    left: 32%;
+    width: 75%;
+    height: 49%;
+    top: 41%;
+    left: 28%;
+    z-index: -1;
   }  
   section#about .wrap .div1 .aimg figure img{
     width: auto;
-    height: calc(100% - 20%);
-    margin: 0;
-    margin-left: calc(100% - 27vw);
+    height: calc(100%);
+    /*! margin: 0; */
+    margin-left: calc(100% - 28vw);
+    position: initial;
+    padding-top: 2vh;
   }
   section#about .wrap .div1 .aimg .hash{
     /*! display: block; */
-    width: 40%;
-    height: fit-content;
+    width: 35%;
+    /*! height: fit-content; */
     margin-left: 0;
     flex-wrap: wrap;
-    gap: 10px;
-    margin: 0 auto;
-    margin-top: 11vh;
+    /*! gap: 10px; */
+    margin: 7vh auto 0 0;
+    margin-top: 7vh;
   }  
 
   section#about .wrap .div1 .aimg .hash li{
@@ -405,7 +411,7 @@
   section#about .wrap .div1 .ainfo{
     margin: 0;
     width: 100%;
-    margin-top: calc(100% - 93%);
+    margin-top: calc(100% - 97%);
   }
   section#about .wrap .div1 .ainfo .subinfo{
     /*! width: 100%; */
@@ -440,7 +446,7 @@
     width: 100%;
   }
   section#about .wrap .div1 .ainfo .subinfo li p{
-    font-size: calc(100% - 13%);
+    font-size: 3vw;
     margin: 0.5% 5vw 3%;
     margin-top: 0.5%;
     word-break: keep-all;
@@ -465,7 +471,7 @@
     gap: 2vw;
   }
   section#about .wrap .div1 .ainfo .subinfo > li:nth-child(3) ul li{
-    font-size: calc(100% - 33%);
+    font-size: 3vw;
     padding: 0 3vw 0 3vw;
     box-sizing: border-box;
     padding: 0;
@@ -482,7 +488,7 @@
   
   /* -------------- portfolio -------------- */  
   section#portfolio{
-    height: calc(100% + 10vh);
+    height: calc(100vh + 50%);
     min-height: 100%;
   }
   section#portfolio .wrap{

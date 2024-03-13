@@ -55,6 +55,7 @@
     <!-- mian 스크립트 -->
     <script type="text/javascript">
         $(document).ready(function(){
+
             //대메뉴클릭시 페이지스크롤링 이동    
             $("header ul.gnb li:nth-child(1) a").click(
                 function(){
@@ -74,7 +75,7 @@
             // portfolio
             $("header ul.gnb li:nth-child(3) a").click(
                 function(){
-                    $("html,body").animate({scrollTop:"1759.5px"},1000); 
+                    $("html,body").animate({scrollTop:"2140px"},1000); 
                     //alert($(window).scrollTop());
                     return false;
                     // 1798px
@@ -84,7 +85,7 @@
             $("header ul.gnb li:nth-child(4) a").click(
                 function(){
                     $("html,body").animate({scrollTop:$(window).height()*2},1000); 
-                    alert($(window).scrollTop());
+                    //alert($(window).scrollTop());
                     return false; 
                     // 2671px
                 }
@@ -124,7 +125,20 @@
                 }
             });
 
+            // title 문구 애니
+            const content = "web publisher & deginer";
+            const text = document.querySelector(".text");
+            let i = 0;
 
+            function typing(){
+                let txt = content[i++];
+                text.innerHTML += txt=== "\n" ? "<br/>": txt;
+                if (i > content.length) {
+                    text.textContent = "";
+                    i = 0;
+                }
+            }
+            setInterval(typing, 200);
 
         });
     </script>
@@ -179,8 +193,6 @@
         }
     </script>
 
-
-
     <!-- slide ani -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -220,7 +232,7 @@
         <div class="wrap" data-aos="fade-up" data-aos-duration="1000">
             <h2>Y2J</h2>
             <h3>PORTFOLIO</h3>
-            <p class="p">web publisher & deginer</p>
+            <p class="text p"></p>
         </div>
         <!-- youtube 동영상 샘플 작업 -->
         <!-- <div id="bacopenkground" class="player" data-property="{

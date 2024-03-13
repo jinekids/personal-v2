@@ -11,7 +11,6 @@ section#about{
     /* border: solid; */
     min-height: 900px;
       /*! outline: 1px solid #eee; */
-    height: calc(100vh + 20%) !important;
 }
 
 
@@ -53,10 +52,11 @@ section#about .wrap .div1 .aimg{
     /*! border: solid burlywood; */
     width: 35%;
     /*! padding-top: 50px; */
-    position: relative;
+    /*! position: relative; */
 }
 section#about .wrap .div1 .aimg figure{
     
+    position: relative;
 }
 section#about .wrap .div1 .aimg figure::before{
     content: "";
@@ -66,28 +66,26 @@ section#about .wrap .div1 .aimg figure::before{
     background-color: #ff0079;
     position: absolute;
     left: 55px;
-    top: 170px;
+    top: 180px;
     border-radius: 50%;
     transform: rotate(-25deg);
-    z-index: -1;
 }
-section#about .wrap .div1 .aimg figure img{
+section#about .wrap .div1 .aimg img{
     content: "";
-    width: 360px;
-    height: 360px;
-    top: 75px;
+    width: 350px;
+    height: 350px;
+    top: 54px;
     position: relative;
-    left: 20px;
 }
 section#about .wrap .div1 .aimg .hash{
     margin-top: 80px;
     flex-wrap: wrap;
-/*     justify-content: space-between; */
+    justify-content: space-between;
     width: 435px;
-    margin-left: 54px;
+    margin-left: 35px;
 }
 section#about .wrap .div1 .aimg .hash li{
-    font-size: 23px;
+    font-size: 25px;
     color: #d2d2d2;
     /*! margin-top: 70px; */
 /*     margin-left: 20px; */
@@ -95,17 +93,16 @@ section#about .wrap .div1 .aimg .hash li{
     line-height : 1.5;
     letter-spacing : .1em;  
     margin-left: 20px;
-
 }
-section#about .wrap .div1 .aimg ul li:not(:nth-child(6))::before{
+section#about .wrap .div1 .aimg ul li:not(:nth-child(6)):before{
     content: "#";
-    font-size: 23px;
+    font-size: 30px;
     color: #d2d2d2;
 }
 section#about .wrap .div1 .aimg .hash li a{
     color: #d2d2d2;
     line-height: 1.5;
-    /*! width: 115px; */
+    width: 115px;
     display: inline-block;
     margin-left: -5px;
     text-align: center;
@@ -113,13 +110,14 @@ section#about .wrap .div1 .aimg .hash li a{
 }
 section#about .wrap .div1 .aimg ul li a:before{
     content: "#";
-    font-size: 23px;
+    font-size: 30px;
+    /*! color: #white; */
 }
 section#about .wrap .div1 .aimg ul li a:after{
     content: "";
     font-size: 0px;
-    /*! color: #white; */
-    width: 172px;
+    color: #white;
+    width: 200px;
     height: 20px;
     background-image: url(../img/water-solid.svg);
     background-repeat: no-repeat;
@@ -127,87 +125,72 @@ section#about .wrap .div1 .aimg ul li a:after{
     position: absolute;
     background-position: 50%;
     z-index: -1;
-    bottom: -7px;
+    bottom: -3px;
     left: -41px;
 }
 
     /* 부연 설명 부분 */
-    section#about .wrap .div1 .ainfo{
-        width: 60%;
-        margin: 0 auto;
-        height: 75%;
-    }
-    
-    section#about .wrap .div1 .ainfo .subinfo {
-        gap: 50px;
-        flex-wrap: wrap;
-    }
-    section#about .wrap .div1 .ainfo .subinfo > li{
-        font-size: 25px;
-        color: #000;
-        width: 770px;
-        height: 232px;
-        display: flex;
-        flex-wrap: wrap;
-        /*! box-sizing: border-box; */
-        background-color: white;
-        box-shadow: aqua;
-        /*! box-shadow: 8px 10px 20px 0px rgba(173, 173, 173); */
-        /*! box-shadow: 8px 10px 20px 0px rgba(255, 0, 121, 0.5); */
-    }
-    section#about .wrap .div1 .ainfo .subinfo > li:nth-child(2){
-        font-size: 25px;
-        color: #000;
-        width: 360px;
-        height: 300px;
-        display: flex;
-        flex-wrap: wrap;
-        /*! box-sizing: border-box; */
-        background-color: white;
-    }
-    section#about .wrap .div1 .ainfo .subinfo li:nth-child(2) p:nth-child(2){
-    }
-    section#about .wrap .div1 .ainfo .subinfo > li:nth-child(3){
-        font-size: 25px;
-        color: #000;
-        width: 360px;
-        height: 300px;
-        display: flex;
-        flex-wrap: wrap;
-        /*! box-sizing: border-box; */
-        background-color: white;
-    }
-    section#about .wrap .div1 .ainfo .subinfo > li:nth-child(3) ul{
-        flex-wrap: wrap;
-        margin: 25px;
-        gap: 30px;
-        margin-top: -18px;
-    }
-    section#about .wrap .div1 .ainfo .subinfo > li:nth-child(3) ul li{
-        font-size: 20px;
-        color: #939393;
-        font-weight: 500;
-        line-height : normal;
-        letter-spacing : .1em;  
-    }
-    section#about .wrap .div1 .ainfo .subinfo li h3{
-        font-size: 28px;
-        /*! color: #939393; */
-        margin: 25px;
-        font-weight: 500;
-        line-height : normal;
-        letter-spacing : .1em;  
-        height: 40px;
-    }
-    section#about .wrap .div1 .ainfo .subinfo li:nth-child(3) h3{
-        margin-bottom: 0;
-    }
-    section#about .wrap .div1 .ainfo .subinfo li p{
-        font-size: 20px;
-        color: #939393;
-        margin: 25px;
-        font-weight: 500;
-        line-height : normal;
-        letter-spacing : .1em;  
-        margin-top: 0;
-    }
+section#about .wrap .div1 .ainfo{
+    width: 60%;
+    margin: 0 auto;
+}
+
+section#about .wrap .div1 .ainfo .subinfo {
+    gap: 50px;
+    flex-wrap: wrap;
+}
+section#about .wrap .div1 .ainfo .subinfo > li{
+    font-size: 25px;
+    color: #000;
+    width: 360px;
+    height: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    /*! box-sizing: border-box; */
+    background-color: white;
+    box-shadow: aqua;
+    /*! box-shadow: 8px 10px 20px 0px rgba(173, 173, 173); */
+    /*! box-shadow: 8px 10px 20px 0px rgba(255, 0, 121, 0.5); */
+}
+section#about .wrap .div1 .ainfo .subinfo > li:nth-child(3){
+    font-size: 25px;
+    color: #000;
+    width: 770px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    /*! box-sizing: border-box; */
+    background-color: white;
+}
+section#about .wrap .div1 .ainfo .subinfo > li:nth-child(3) ul{
+
+    flex-wrap: wrap;
+    margin: 25px;
+    gap: 30px;
+}
+section#about .wrap .div1 .ainfo .subinfo > li:nth-child(3) ul li{
+    font-size: 20px;
+    color: #939393;
+    font-weight: 500;
+    line-height : normal;
+    letter-spacing : .1em;  
+}
+
+
+section#about .wrap .div1 .ainfo .subinfo li h3{
+    font-size: 33px;
+    color: black;
+    margin: 25px 20px 0;
+    font-weight: 500;
+    line-height : normal;
+    /*! letter-spacing : .1em; */  
+}
+section#about .wrap .div1 .ainfo .subinfo li p{
+    font-size: 20px;
+    color: #939393;
+    margin: 25px;
+    font-weight: 500;
+    line-height : normal;
+    letter-spacing : .1em;  
+}
+
