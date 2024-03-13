@@ -30,6 +30,28 @@
     <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
 
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" type="text/javascript"></script>
+
+    <!-- 유튜브 영상 스크립트 -->
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.3.4/css/jquery.mb.YTPlayer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.3.4/jquery.mb.YTPlayer.min.js"></script> -->
+    <!-- <style>
+        #bacopenkground {
+            z-index: -1;
+        }
+        #open {
+            display: block !important;
+            height: 400px;
+            width: 600px;
+        }
+    </style>
+    <script>
+        jQuery( function() {
+            //$는 jQuery 단축표기, $(document).ready(function(){})에서 $(document).ready...를 단축표기해서 $(function(){})
+            jQuery( '#bacopenkground,#open' ).YTPlayer();
+        });
+    </script> -->
+
+
     <!-- mian 스크립트 -->
     <script type="text/javascript">
         $(document).ready(function(){
@@ -52,8 +74,8 @@
             // portfolio
             $("header ul.gnb li:nth-child(3) a").click(
                 function(){
-                    $("html,body").animate({scrollTop:"1755px"},1000); 
-                    //alert($(window).scrollTop()); 1755
+                    $("html,body").animate({scrollTop:"1759.5px"},1000); 
+                    //alert($(window).scrollTop());
                     return false;
                     // 1798px
                 }
@@ -61,7 +83,8 @@
             //contact
             $("header ul.gnb li:nth-child(4) a").click(
                 function(){
-                    $("html,body").animate({scrollTop:$(window).height()*3},1000); 
+                    $("html,body").animate({scrollTop:$(window).height()*2},1000); 
+                    alert($(window).scrollTop());
                     return false; 
                     // 2671px
                 }
@@ -199,6 +222,21 @@
             <h3>PORTFOLIO</h3>
             <p class="p">web publisher & deginer</p>
         </div>
+        <!-- youtube 동영상 샘플 작업 -->
+        <!-- <div id="bacopenkground" class="player" data-property="{
+            videoURL: 'https://youtu.be/7AMzqrfOW40',
+            mute: true,
+            showControls: false,
+            useOnMobile: true,
+            quality: 'highres',
+            containment: 'body',
+            loop: true,
+            autoPlay: true,
+            stopMovieOnBlur: false,
+            startAt: 0,
+            opacity: 1
+          }">
+          </div> -->
     </div>
 
 
@@ -213,7 +251,9 @@
                 </h2>
                 <div class="div1 flex" >
                     <div class="aimg" data-aos="zoom-out" data-aos-duration="1000">
-                        <img src="img/mimoicon.png" alt="출처:https://blog.naver.com/brotherm1n/222453518095">
+                        <figure>
+                            <img src="img/mimo.png" alt="아이폰 미모티콘">
+                        </figure>
                         <ul class="hash flex">
                             <li>ENTP</li>
                             <li>긍정적인</li>
@@ -237,7 +277,7 @@
                                 <li class="block borderR30">
                                     <h3>Edu 📚</h3>
                                     <p>
-                                        22.04 - 23.04 아이엔시솔루션 개발연구소 
+                                        22.04 - 23.04 아이엔시솔루션 개발연구소 (프론트엔드 직무)
                                     </p>
                                     <p>
                                         23.11 - 24.03 이젠IT아카데미 UIUX 웹디자인 with 유튜브동영상 반응형 웹(스마트혼합)-B 과정 이수
@@ -258,49 +298,66 @@
                     </div>
                 </div>
             </div>
+            <!-- <div id="open" class="player" data-property="{
+                videoURL: 'https://youtu.be/qKL7Ls3Qv8E',
+                mute: true,
+                showControls: false,
+                useOnMobile: true,
+                quality: 'highres',
+                containment: 'body',
+                loop: true,
+                autoPlay: true,
+                stopMovieOnBlur: false,
+                startAt: 0,
+                opacity: 1
+              }">
+              </div> -->
         </section>
 
 
         <!------ portfolio 영역 ------>
         <section id="portfolio">
             <div class="wrap">
+                <h2>
+                    portfolio
+                </h2>
                 <div class="web">
                     <div class="pf01">
                         <ul class="h1 flex column">
                             <!-- Accuniq -->
                             <li>
                                 <a target="_blank" href="https://jinekids.github.io/pf1-accuniq/">Accuniq</a>
-                                <p class="p">html/css | 기여도 100% | <a target="_blank" href="https://www.accuniq.com/kr/index.php"> origin site</a></p>
+                                <p class="p">html/css/javascript | 기여도 100% | <a target="_blank" href="https://www.accuniq.com/kr/index.php"> origin site</a></p>
                             </li>
                             <!-- Lpoint -->
                             <li>
                                 <a target="_blank" href="https://jinekids.github.io/pf2-lpoint/">Lpoint</a>
-                                <p class="p">html/css | 기여도 100% | <a target="_blank" href="https://www.lpoint.com/"> origin site</a></p>
+                                <p class="p">html/css/javascript | 기여도 100% | <a target="_blank" href="https://www.lpoint.com/"> origin site</a></p>
                             </li>
                             <!-- HBpaper -->
                             <li>
                                 <a target="_blank" href="https://jinekids.github.io/pf3-HBpaper/">HBpaper</a>
-                                <p class="p">html/css | 기여도 100% | <a target="_blank" href="http://hbpaper.kr/"> origin site</a></p>
+                                <p class="p">html/css/javascript | 기여도 100% | <a target="_blank" href="http://hbpaper.kr/"> origin site</a></p>
                             </li>
                             <!-- Hitejinro -->
                             <li>
                                 <a target="_blank" href="https://jinekids.github.io/pf4-Hitejinro/">Hitejinro</a>
-                                <p class="p">html/css | 기여도 100% | 반응형 O | <a target="_blank" href="https://hitejinro.com/"> origin site</a></p>
+                                <p class="p">html/css/javascript/jQuery | 기여도 100% | 반응형 O | <a target="_blank" href="https://hitejinro.com/"> origin site</a></p>
                             </li>
                             <!-- hectohealthcare -->
                             <li>
                                 <a target="_blank" href="https://jinekids.github.io/pfa-Hecto-Healthcare/">hectohealthcare</a>
-                                <p class="p">html/css | 기여도 100% | <a target="_blank" href="https://www.hectohealthcare.com/corp"> origin site</a></p>
+                                <p class="p">html/css/javascript/jQuery | 기여도 100% | <a target="_blank" href="https://www.hectohealthcare.com/corp"> origin site</a></p>
                             </li>
                             <!-- Twoslashfour -->
                             <li>
                                 <a target="_blank" href="https://jinekids.github.io/pfb-Twoslashfour/">Twoslashfour</a>
-                                <p class="p">html/css | 기여도 100% | <a target="_blank" href="https://twoslashfour.com/"> origin site</a></p>
+                                <p class="p">html/css/javascript/jQuery | 기여도 100% | <a target="_blank" href="https://twoslashfour.com/"> origin site</a></p>
                             </li>
                             <!-- jrschool(쥬니버스쿨) -->
                             <li>
                                 <a target="_blank" href="https://mkt.naver.com/p1/jrschool">jrschool(쥬니버스쿨)</a>
-                                <p class="p">html/css | 기여도 100% | <a target="_blank" href="https://mkt.naver.com/p1/jrschool"> origin site</a></p>
+                                <p class="p">html/css/javascript/jQuery | 기여도 100% | <a target="_blank" href="https://mkt.naver.com/p1/jrschool"> origin site</a></p>
                             </li>
                         </ul>
                         <p class="p hide">대표적으로 보여드린 5개의 작업물 포함 총 n개의 작업을 했습니다.</p>
