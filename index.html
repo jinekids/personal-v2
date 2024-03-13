@@ -75,7 +75,8 @@
             // portfolio
             $("header ul.gnb li:nth-child(3) a").click(
                 function(){
-                    $("html,body").animate({scrollTop:"2140px"},1000); 
+                    $("html,body").animate({scrollTop:$(window).height()*2},1000); 
+                    //$("html,body").animate({scrollTop:"2140px"},1000); 
                     //alert($(window).scrollTop());
                     return false;
                     // 1798px
@@ -84,9 +85,9 @@
             //contact
             $("header ul.gnb li:nth-child(4) a").click(
                 function(){
-                    //$("html,body").animate({scrollTop:$(window).height()*2},1000); 
-                    $("html,body").animate({scrollTop:"2466px"},1000); 
-                    alert($(window).scrollTop());
+                    $("html,body").animate({scrollTop:$(window).height()*3},1000); 
+                    //$("html,body").animate({scrollTop:"2466px"},1000); 
+                    //alert($(window).scrollTop());
                     return false; 
                     // 2671px
                 }
@@ -274,7 +275,7 @@
                             <li>책임감있는</li>
                             <li>협력적인</li>
                             <li><a href="./yeojin_work_history.pdf" target="_blank">이력서</a></li>
-                            
+
                         </ul>
                     </div>
 
