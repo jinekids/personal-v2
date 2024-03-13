@@ -7,7 +7,7 @@ header{
   /*  position: absolute; 하게되면 아래 컨텐츠와 겹치게   */
   padding-top: 10px;
   width: 100%;
-background-color: rgba(0, 0, 0, 1);
+background-color: #101012;
   position: fixed;
   z-index: 10;
 }
@@ -38,8 +38,9 @@ header ul.gnb li{
 }
 
 header ul.gnb li a{
-
   color: white;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 /* 자식선택자:바로아래있는선택자(태그) */
@@ -61,7 +62,7 @@ header .wrap>a{
 
 /* 타이틀 영역 */
 div#title{
-  background-color: #000;
+  background-color: #101012;
   position: relative;
 }
 
@@ -87,11 +88,12 @@ div#title div.wrap h2{
 div#title div.wrap h3{
   /*   margin-left: 10%; */
   /* padding-top: 10%; */
-    font-size: 300px;
+    font-size: 260px;
   font-weight : 500;
   /*! background-image: url(../img/y2.png); */
   -webkit-text-stroke: 2px #ff0079;
-  transform: translateY(-140px);
+  transform: translateY(-109px) translateX(47px);
+  color: transparent;
 }
 
 div#title div.wrap p{
