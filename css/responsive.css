@@ -694,6 +694,12 @@
     left: calc(100% - 79%);
   }
   section#about .wrap .div1 .aimg figure img{
+    
+  }
+  section#about .wrap .div1 .aimg figure img::before{
+    background-image: url(../img/mimo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
     width: auto;
     height: calc(100% - 5%);
     margin-left: calc(100% - 77%);
