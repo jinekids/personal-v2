@@ -375,7 +375,7 @@
   }  
   section#about .wrap .div1 .aimg figure img{
     width: auto;
-    height: calc(100%);
+    height: 100%;
     /*! margin: 0; */
     margin-left: calc(100% - 26vw);
     position: initial;
@@ -594,13 +594,11 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:450px){
-  
-}
+
 
 
 /* ------------------------------------------------------------------------------------------ */
-@media screen and (max-width:320px){
+@media screen and (min-width:150px) and (max-width:450px){
   .wrap{
     width: 100%;
   }
@@ -683,27 +681,27 @@
   section#about .wrap .div1 .aimg{
     /*! width: 100%; */
     /*! display: flex; */
-    /*! padding-top: 0; */
+    margin-top: 4vh;
     /*! height: calc(100% - 74%); */
   }
-  section#about .wrap .div1 .aimg::before{
-    /*! width: calc(100% * 0.5); */
-    /*! height: calc(100% - 55%); */
-    /*! top: calc(100% - 67%); */
-    /*! left: calc(100% - 91%); */
+  section#about .wrap .div1 .aimg figure{
+    
   }
-  section#about .wrap .div1 .aimg img{
-    /*! width: auto; */
-    /*! height: calc(100% - 20%); */
-    /*! margin-top: 0; */
-    /*! margin: 0; */
-    /*! top: 15%; */
-    /*! left: 20vw; */
-    margin-left: calc(100% - 89%);
-    /*! padding-top: calc(100% - 96%); */
+  section#about .wrap .div1 .aimg figure::before{
+    width: calc(100% * 1);
+    height: calc(100% - 60%);
+    /*! top: calc(100% - 67%); */
+    left: calc(100% - 79%);
+  }
+  section#about .wrap .div1 .aimg figure img{
+    width: auto;
+    height: calc(100% - 5%);
+    margin-left: calc(100% - 77%);
+    margin-top: calc(100% - 95%);
+    box-sizing: border-box;
   }
   section#about .wrap .div1 .aimg .hash{
-    /*! margin-top: 5vh; */
+    margin-top: 5vh;
     /*! display: block; */
     /*! margin-left: calc(100% - 92%); */
     /*! width: auto; */
@@ -724,8 +722,8 @@
     font-size: 3.5vw;
   }
   section#about .wrap .div1 .aimg ul li a::after{
-    width: 102px;
-    left: -23px;
+    width: calc(100vw - 77vw);
+    left: calc(100vw - 104vw);
   }
   section#about .wrap .div1 .aimg ul li:not(:nth-child(6))::before{
     font-size: 3.5vw;
