@@ -449,7 +449,7 @@
     width: 100%;
   }
   section#about .wrap .div1 .ainfo .subinfo li p{
-    font-size: calc(100vh - 98vh);
+    font-size: calc(100vh - 98.2vh);
     margin: 0.5% 5vw 3%;
     margin-top: 0.5%;
     word-break: keep-all;
@@ -474,7 +474,7 @@
     gap: 2vw;
   }
   section#about .wrap .div1 .ainfo .subinfo > li:nth-child(3) ul li{
-    font-size: calc(100vh - 98vh);
+    font-size: calc(100vh - 98.2vh);
     padding: 0 3vw 0 3vw;
     box-sizing: border-box;
     padding: 0;
