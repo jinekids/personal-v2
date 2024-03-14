@@ -372,7 +372,26 @@
     left: calc(100% - 67%);
     z-index: -1;
     /*! margin-left: 16px; */
-  }  
+  }
+  section#about .wrap .div1 .aimg figure h3{
+    font-size: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    top: 31px;
+    box-sizing: border-box;
+  }
+  section#about .wrap .div1 .aimg figure h3::before{
+    content: "";
+    background-image: url(../img/mimo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: calc(100% - 18%);
+    margin-left: calc(100% - 65%);
+    /*! margin-top: calc(100% - 99%); */
+  }
   section#about .wrap .div1 .aimg figure img{
     width: auto;
     height: 100%;
@@ -394,7 +413,7 @@
 
   section#about .wrap .div1 .aimg .hash li{
     margin-left: 0;
-    font-size: calc(100% - 10%);
+    font-size: calc(100% - 25%);
     line-height: 1.3;
     width: auto;
   }
@@ -417,6 +436,7 @@
     width: 100%;
     margin-top: calc(100% - 97%);
   }
+  
   section#about .wrap .div1 .ainfo .subinfo{
     /*! width: 100%; */
     gap: 20px;
@@ -685,7 +705,7 @@
     /*! height: calc(100% - 74%); */
   }
   section#about .wrap .div1 .aimg figure{
-    
+    box-sizing: border-box;
   }
   section#about .wrap .div1 .aimg figure::before{
     width: calc(100% * 1);
@@ -693,10 +713,30 @@
     /*! top: calc(100% - 67%); */
     left: calc(100% - 79%);
   }
-  section#about .wrap .div1 .aimg figure img{
+  section#about .wrap .div1 .aimg figure h3{
+    font-size: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    top: 31px;
+    box-sizing: border-box;
+  }
+  section#about .wrap .div1 .aimg figure h3::before{
+    content: "";
+    background-image: url(../img/mimo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: calc(100% - 18%);
+    margin-left: calc(100% - 65%);
+    /*! margin-top: calc(100% - 99%); */
+  }
+  /* section#about .wrap .div1 .aimg figure img{
     
   }
   section#about .wrap .div1 .aimg figure img::before{
+    content: "":
     background-image: url(../img/mimo.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -705,7 +745,7 @@
     margin-left: calc(100% - 77%);
     margin-top: calc(100% - 95%);
     box-sizing: border-box;
-  }
+  } */
   section#about .wrap .div1 .aimg .hash{
     margin-top: 5vh;
     /*! display: block; */
