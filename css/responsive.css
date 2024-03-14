@@ -331,10 +331,10 @@
   section#about{
     outline: 1px solid aliceblue;
     min-height: 100%;
-    height: calc(100%) !important;
+    height: 100vh !important;
   }
   section#about .wrap{
-    height: calc(100%) !important;
+    height: 100% !important;
     /*! min-height: 500px; */
   }
   section#about .wrap h2{
