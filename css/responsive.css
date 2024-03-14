@@ -348,8 +348,9 @@
     box-sizing: border-box;
     flex-direction: column;
     width: 100%;
-    padding-top: 6vh;
+    margin-top: 2vh;
 /*   test   */
+    padding: 0;
   }
   section#about .wrap .div1 .aimg{
     width: 100%;
