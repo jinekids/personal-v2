@@ -70,12 +70,41 @@ section#about .wrap .div1 .aimg figure::before{
     border-radius: 50%;
     transform: rotate(-25deg);
 }
-section#about .wrap .div1 .aimg img{
+section#about .wrap .div1 .aimg figure h3{
+    font-size: 0;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    top: 54px;
+}
+section#about .wrap .div1 .aimg figure h3::before{
     content: "";
+    background-image: url(../img/mimo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 350px;
+    height: 350px;
+    box-sizing: border-box;
+    position: absolute;
+}
+section#about .wrap .div1 .aimg figure img{
     width: 350px;
     height: 350px;
     top: 54px;
     position: relative;
+}
+section#about .wrap .div1 .aimg figure img::before{
+    content: "";
+    background-image: url(../img/mimo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 350px;
+    height: 350px;
+    /*! margin-left: calc(100% - 77%); */
+    /*! margin-top: calc(100% - 95%); */
+    box-sizing: border-box;
+    position: absolute;
 }
 section#about .wrap .div1 .aimg .hash{
     margin-top: 80px;
