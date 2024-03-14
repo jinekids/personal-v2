@@ -330,7 +330,7 @@
   /* -------------- about -------------- */
   section#about{
     outline: 1px solid aliceblue;
-    min-height: 100%;
+    min-height: 100vh;
     height: 100vh !important;
   }
   section#about .wrap{
@@ -365,13 +365,11 @@
     margin: 0 auto;
     margin-left: 0;
   }
-  section#about .wrap .div1 .aimg figure::before{
-    width: calc(100% - 19%);
-    height: 49%;
-    top: 41%;
-    left: calc(100% - 67%);
-    z-index: -1;
-    /*! margin-left: 16px; */
+  section#about .wrap .div1 .aimg figure::before{    
+    width: calc(100% * 1);
+    height: calc(100% - 60%);
+    top: calc(100% - 59%);
+    left: calc(100% - 79%);
   }
   section#about .wrap .div1 .aimg figure h3{
     font-size: 0;
@@ -389,7 +387,7 @@
     background-size: contain;
     width: 100%;
     height: calc(100% - 18%);
-    margin-left: calc(100% - 65%);
+    margin-left: calc(100% - 64%);
     /*! margin-top: calc(100% - 99%); */
   }
   section#about .wrap .div1 .aimg figure img{
@@ -618,14 +616,9 @@
 
 
 /* ------------------------------------------------------------------------------------------ */
-@media screen and (max-width:450px){
+@media screen and (max-width:451px){
   .wrap{
     width: 100%;
-  }
-  header{
-    /*! padding-top: 15px; */
-    /*! text-align: center; */
-    /*! width: 100%; */
   }
   header .wrap{
     width: 100%;
@@ -636,73 +629,16 @@
     justify-content: center;
     align-items: center;
   }
-  header ul.gnb li{
-    
-  }
   header ul.gnb li a{
     font-size: 4vw;
   }
 
   /* -------------- title -------------- */  
-  div#title{
-    /*! outline: 1px solid aliceblue; */
-    /*! height: 100vh; */
-  }
-  div#title div.wrap{
-    /*! width: 100%; */
-    /*! position: relative; */
-    /*! height: 100%; */
-  }
-  div#title div.wrap h2{
-    /*! font-size: 39.6vw; */
-    /*! position: relative; */
-    /*! left: -18vw; */
-    /*! transform: initial; */
-    /*! top: -12vh; */
-  }
-  div#title div.wrap h3{
-    /*! font-size: 19.5vw; */
-    /*! position: relative; */
-    /*! left: 0; */
-    /*! transform: initial; */
-    /*! top: -14vh; */
-    /*! right: 0; */
-  }
-  div#title div.wrap p{
-    /*! font-size: 5vw; */
-    /*! position: absolute; */
-    /*! bottom: 17vh; */
-  }
 
   /* -------------- about -------------- */
-  section#about{
-    /*! outline: 1px solid aliceblue; */
-    /*! min-height: 100%; */
-    /*! height: calc(100% + 50px); */
-  }
-  section#about .wrap{
 
-  /*! height: 100%; */
-  /*! min-height: 500px; */
-  }
-  section#about .wrap h2{
-    /*! font-size: 6vw; */
-    /*! padding-top: 11vh; */
-    /*! padding-left: 3.6vw; */
-    /*! display: none; */
-  }
-  section#about .wrap .div1{
-    /*! height: 100vh; */
-    /*! box-sizing: border-box; */
-    /*! flex-direction: column; */
-    /*! padding-top: 2vh; */
-    /*! width: 100%; */
-  }
   section#about .wrap .div1 .aimg{
-    /*! width: 100%; */
-    /*! display: flex; */
     margin-top: 4vh;
-    /*! height: calc(100% - 74%); */
   }
   section#about .wrap .div1 .aimg figure{
     box-sizing: border-box;
@@ -730,29 +666,9 @@
     width: 100%;
     height: calc(100% - 18%);
     margin-left: calc(100% - 65%);
-    /*! margin-top: calc(100% - 99%); */
   }
-  /* section#about .wrap .div1 .aimg figure img{
-    
-  }
-  section#about .wrap .div1 .aimg figure img::before{
-    content: "":
-    background-image: url(../img/mimo.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: auto;
-    height: calc(100% - 5%);
-    margin-left: calc(100% - 77%);
-    margin-top: calc(100% - 95%);
-    box-sizing: border-box;
-  } */
   section#about .wrap .div1 .aimg .hash{
     margin-top: 5vh;
-    /*! display: block; */
-    /*! margin-left: calc(100% - 92%); */
-    /*! width: auto; */
-    /*! height: fit-content; */
-    /*! margin-left: 0; */
   }
   section#about .wrap .div1 .aimg .hash li{
     margin-left: 0;
@@ -774,15 +690,6 @@
   section#about .wrap .div1 .aimg ul li:not(:nth-child(6))::before{
     font-size: 3.5vw;
   }
-  section#about .wrap .div1 .ainfo{
-    /*! margin: 0; */
-    /*! width: 100%; */
-    /*! margin-top: 3vh; */
-  }
-  section#about .wrap .div1 .ainfo .subinfo{
-    /*! width: 100%; */
-    /*! gap: 10px; */
-  }
   section#about .wrap .div1 .ainfo .subinfo > li{
     margin-left: 6vw;
     margin-right: 6vw;
@@ -794,12 +701,9 @@
   }
   section#about .wrap .div1 .ainfo .subinfo > li:nth-child(3){
     width: 100%;
-    /*! height: calc(100% - 60%); */
-    /*! border-radius: 17px; */
   }
   section#about .wrap .div1 .ainfo .subinfo li h3{
     font-size: 5vw;
-    /*! margin: 2vh 0 0 5vw; */
     height: 4vh;
   }
   section#about .wrap .div1 .ainfo .subinfo li p{
@@ -813,12 +717,9 @@
     margin-top: 0;
   }
   section#about .wrap .div1 .ainfo .subinfo > li:nth-child(3) ul{
-    /*! margin: 5vw; */
     margin-top: 0;
-    /*! gap: initial; */
   }
   section#about .wrap .div1 .ainfo .subinfo > li:nth-child(3) ul li{
-    /*! font-size: 4vw; */
     padding: 0 3vw 0 0;
     box-sizing: border-box;
   }
@@ -839,7 +740,6 @@
   }
   section#portfolio .wrap .web{
     height: auto;
-    /*! min-height: 100%; */
     margin-top: 0;
   }
   section#portfolio .wrap .web::before{
@@ -864,9 +764,6 @@
   section#portfolio .wrap .web .pf01 ul li{
     margin: 3.5vh 0 0 0;
   }
-  section#portfolio .wrap .web .pf01 ul li:nth-child(1){
-    
-  }
   section#portfolio .wrap .web .pf01 ul li a{
     width: 100%;
   }
@@ -883,9 +780,6 @@
   /* -------------- contact -------------- */
   section#contact{
     height: 90% !important;
-  }
-  section#contact .wrap{
-
   }
   section#contact .wrap h2{
     padding-top: 15vh;
@@ -916,7 +810,6 @@
 
   /* -------------- footer -------------- */
   footer{
-    /*! padding-top: 3vh; */
   }
   footer .footer{
     padding: 3vh;
