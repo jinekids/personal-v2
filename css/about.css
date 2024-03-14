@@ -145,7 +145,7 @@ section#about .wrap .div1 .aimg ul li a:before{
 section#about .wrap .div1 .aimg ul li a:after{
     content: "";
     font-size: 0px;
-    color: #white;
+    /*! color: #white; */
     width: 200px;
     height: 20px;
     background-image: url(../img/water-solid.svg);
@@ -157,7 +157,6 @@ section#about .wrap .div1 .aimg ul li a:after{
     bottom: -3px;
     left: -41px;
 }
-
     /* 부연 설명 부분 */
 section#about .wrap .div1 .ainfo{
     width: 60%;
