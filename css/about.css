@@ -87,6 +87,7 @@ section#about .wrap .div1 .aimg figure h3::before{
     height: 350px;
     box-sizing: border-box;
     position: absolute;
+    
 }
 section#about .wrap .div1 .aimg figure img{
     width: 350px;
