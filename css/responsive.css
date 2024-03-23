@@ -9,7 +9,7 @@
   }
 }
 
-@media screen and (min-width:769px) and (max-width:1023px){
+@media screen and (min-width:769px) and (max-width:1219px){
   header{
     padding-top: 2.5vh;
   }
@@ -18,18 +18,17 @@
     justify-content: center;
   }
   header ul.gnb{
-    font-size: 2.6vw;
   }
   header ul.gnb li{
 
   }
   header ul.gnb li a{
-
+    font-size: 3.6vw;
   }
 
   /* -------------- title -------------- */  
   div#title{
-    outline: 1px solid aliceblue;
+/*     outline: 1px solid aliceblue; */
     height: 100vh;
   }
   div#title div.wrap{
@@ -60,7 +59,7 @@
   
   /* -------------- about -------------- */
   section#about{
-    outline: 1px solid aliceblue;
+    /*! outline: 1px solid aliceblue; */
     min-height: 100%;
   }
   section#about .wrap{
@@ -76,7 +75,7 @@
     height: 100vh;
     box-sizing: border-box;
     flex-direction: column;
-    padding-top: 10vh;
+    padding-top: 0;
     width: 100%;
   }
   section#about .wrap .div1 .aimg{
@@ -84,37 +83,65 @@
     display: flex;
     padding-top: 0;
   }
-  section#about .wrap .div1 .aimg::before{
-    width: 42vw;
-    height: 15vh;
-    top: 9vh;
-    left: 11vw;
+  section#about .wrap .div1 .aimg figure{
+    box-sizing: border-box;
+    width: 40%;
   }
-  section#about .wrap .div1 .aimg img{
-    width: 37vw;
-    height: 27vh;
-    top: -25px;
-    margin-top: 0;
-    left: 12vw;
-    margin: 0;
+  section#about .wrap .div1 .aimg figure::before{
+    width: calc(100% - 10%);
+    height: calc(100% - 50%);
+    /*! top: calc(100% - 67%); */
+    left: calc(100% - 79%);
+  }
+  section#about .wrap .div1 .aimg figure h3{
+    font-size: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    top: 35%;
+    box-sizing: border-box;
+  }
+  section#about .wrap .div1 .aimg figure h3::before{
+    content: "";
+    background-image: url(../img/mimo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: calc(100% - 11%);
+    margin-left: calc(100% - 67%);
   }
   section#about .wrap .div1 .aimg .hash{
-    margin-top: 4vh;
-    display: block;
-    margin-left: 25vw;
+    margin-top: 14vh;
+    height: fit-content;
+    margin-left: 9%;
+    width: 40%;
   }
   section#about .wrap .div1 .aimg .hash li{
     margin-left: 0;
-    font-size: 4vw;
+    font-size: 3.5vw;
     line-height: 1.3;
+    width: auto;
+    height: fit-content;
   }
-  section#about .wrap .div1 .aimg ul li:before{
+  section#about .wrap .div1 .aimg .hash li a{
+    width: auto;
+    padding-left: 4px;
+  }  
+  section#about .wrap .div1 .aimg ul li a:before{
+    font-size: 3.5vw;
+  }
+  section#about .wrap .div1 .aimg ul li a::after{
+    width: calc(100vw - 77vw);
+    left: calc(100vw - 104vw);
+  }
+  section#about .wrap .div1 .aimg ul li:not(:nth-child(6))::before{
     font-size: 3.5vw;
   }
   section#about .wrap .div1 .ainfo{
     margin: 0;
     width: 100%;
-    margin-top: 1vh;
+    margin-top: 6vh;
   }
   section#about .wrap .div1 .ainfo .subinfo{
     width: 100%;
@@ -127,11 +154,11 @@
   }
   section#about .wrap .div1 .ainfo .subinfo > li:nth-child(1){
     width: 100%;
-    height: 22vh;
+    height: 24vh;
   }
   section#about .wrap .div1 .ainfo .subinfo > li:nth-child(2){
     width: 100%;
-    height: 19vh;
+    height: 22vh;
   }
   section#about .wrap .div1 .ainfo .subinfo > li:nth-child(3){
     width: 100%;
@@ -143,13 +170,13 @@
     height: 5vh;
   }
   section#about .wrap .div1 .ainfo .subinfo li p{
-    font-size: 3vw;
+    font-size: calc(100vh - 97.4vh);
     margin: 5vw;
     margin-top: 0;
     word-break: keep-all;
   }
   section#about .wrap .div1 .ainfo .subinfo li:nth-child(2) p:nth-child(2){
-    font-size: 3.5vw;
+    font-size: calc(100vh - 97.4vh);
     margin: 1vw 5vw;
     word-break: keep-all;
     margin-top: 0;
@@ -160,7 +187,7 @@
     gap: initial;
   }
   section#about .wrap .div1 .ainfo .subinfo > li:nth-child(3) ul li{
-    font-size: 3vw;
+    font-size: calc(100vh - 97.4vh);
     padding: 0 3vw 0 3vw;
     box-sizing: border-box;
   }
@@ -171,18 +198,24 @@
     padding-left: 0;
   }
   
-  /* -------------- portfolio -------------- */
+  /* -------------- portfolio -------------- */  
   section#portfolio{
-    height: 120vh;
-    min-height: 100%;
+    height: calc(100%);
+    /*! min-height: 100%; */
   }
   section#portfolio .wrap{
     height: 100%;
     min-height: 100%;
   }
+  section#portfolio .wrap h2{
+    font-size: 10vw;
+    text-align: center;
+    /*! margin-top: -5vh; */
+    padding-top: 10vh;
+  }
   section#portfolio .wrap .web{
-    height: 100%;
-    min-height: 100%;
+    height: auto;
+    margin-top: 0;
   }
   section#portfolio .wrap .web::before{
     transform: initial;
@@ -193,23 +226,21 @@
     text-align: center;
     font-size: 6vw;
     line-height: 2;
-    /*! display: none; */
-  }
+  }  
   section#portfolio .wrap .web .pf01{
-    padding: 12vh 5vw 0;
+    padding: 0 7vw;
     box-sizing: border-box;
   }
   section#portfolio .wrap .web .pf01 > ul{
-    font-size: 5.5vw;
+    font-size: 4.5vw;
     height: auto;
-
-    padding-top: 5vh;
-  }
+    /*! margin-top: 10%; */
+  }  
   section#portfolio .wrap .web .pf01 ul li{
-    margin: 4.5vh 0 0 0;
+    margin: 3vh 0 0 0;
   }
   section#portfolio .wrap .web .pf01 ul li:nth-child(1){
-    
+
   }
   section#portfolio .wrap .web .pf01 ul li a{
     width: 100%;
@@ -218,26 +249,26 @@
     margin-top: 10px;
     width: 100%;
     display: block;
-    font-size: 3.5vw;
+    font-size: 2.5vw;
   }
   section#portfolio .wrap .web .pf01 ul li p a{
-    width: auto;
-  }
+    width: 20vw;
+  }  
   
   /* -------------- contact -------------- */
   section#contact{
-    height: 100%;
+    height: 92% !important;
   }
   section#contact .wrap{
 
   }
   section#contact .wrap h2{
-    font-size: 6vw;
-    padding-top: 4vh;
-    padding-left: 3.6vw;
+    padding-top: 15vh;
+    font-size: 10vw;
+    text-align: center;
   }
   section#contact .wrap .address{
-    margin: 3vh 0 0 0;
+    margin: 16vh 0 0 0;
     padding: initial;
     justify-content: center;
     flex-direction: column;
@@ -250,7 +281,7 @@
     font-size: 4vw;
   }
   section#contact .wrap .address .kakaoqr{
-    width: 25vw;
+    width: calc(100% - 67vw);
     margin-top: 3vh;
   }
   section#contact .wrap .address .kakaoqr img{
@@ -297,7 +328,6 @@
 
   /* -------------- title -------------- */  
   div#title{
-    outline: 1px solid aliceblue;
     height: 100vh;
   }
   div#title div.wrap{
@@ -329,7 +359,6 @@
 
   /* -------------- about -------------- */
   section#about{
-    outline: 1px solid aliceblue;
     min-height: 100vh;
     height: 100vh !important;
   }
@@ -468,7 +497,7 @@
     width: 100%;
   }
   section#about .wrap .div1 .ainfo .subinfo li p{
-    font-size: calc(100vh - 98.2vh);
+    font-size: calc(100vh - 97.8vh);
     margin: 0.5% 5vw 3%;
     margin-top: 0.5%;
     word-break: keep-all;
@@ -493,10 +522,10 @@
     gap: 2vw;
   }
   section#about .wrap .div1 .ainfo .subinfo > li:nth-child(3) ul li{
-    font-size: calc(100vh - 98.2vh);
     padding: 0 3vw 0 3vw;
     box-sizing: border-box;
     padding: 0;
+    font-size: calc(100vh - 97.8vh);
   }
   section#about .wrap .div1 .ainfo .subinfo > li:nth-child(3) ul li:nth-child(1){
     /*! padding-left: 0; */
@@ -521,7 +550,7 @@
     font-size: 10vw;
     text-align: center;
     /*! margin-top: -5vh; */
-    padding-top: 8vh;
+    padding-top: 10vh;
   }
   section#portfolio .wrap .web{
     height: auto;
@@ -664,14 +693,14 @@
     background-size: contain;
     width: 100%;
     height: calc(100% - 18%);
-    margin-left: calc(100% - 73%);
+    margin-left: calc(100% - 63%);
   }
   section#about .wrap .div1 .aimg .hash{
     margin-top: 5vh;
   }
   section#about .wrap .div1 .aimg .hash li{
     margin-left: 0;
-    font-size: 4vw;
+    font-size: 3.5vw;
     line-height: 1.3;
     width: auto;
   }
@@ -702,7 +731,7 @@
     width: 100%;
   }
   section#about .wrap .div1 .ainfo .subinfo li h3{
-    font-size: 5vw;
+    font-size: 4vw;
     height: 4vh;
   }
   section#about .wrap .div1 .ainfo .subinfo li p{
@@ -735,7 +764,7 @@
   section#portfolio .wrap h2{
     font-size: 10vw;
     text-align: center;
-    margin-top: -5vh;
+    /*! margin-top: -5vh; */
   }
   section#portfolio .wrap .web{
     height: auto;
@@ -756,9 +785,9 @@
     box-sizing: border-box;
   }
   section#portfolio .wrap .web .pf01 > ul{
-    font-size: 6.5vw;
+    font-size: 4.5vw;
     height: auto;
-    margin-top: 10%;
+    /*! margin-top: 10%; */
   }
   section#portfolio .wrap .web .pf01 ul li{
     margin: 3.5vh 0 0 0;
