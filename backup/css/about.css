@@ -1,0 +1,207 @@
+section#about{
+    background-color: #101012;  
+    /*완성되면 백그라운드 지우기*/
+/*     padding: 250px 0 0 0; */
+    display: flex;
+    /* flex-direction: column;   */
+    /*  flex의 방향을 수직으로  */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* border: solid; */
+    min-height: 900px;
+      /*! outline: 1px solid #eee; */
+}
+
+
+section#about .wrap{
+    position: absolute;
+    /*  position: absolute; 하게되면 아래 컨텐츠와 겹치게   */
+    font-size: 25px;
+    /* font-family: 'Noto Serif KR', serif; */
+    /* background-color: #f4f4f4; */
+    height: 900px;
+    flex-flow: column wrap;
+    /*! border: solid burlywood; */
+}
+
+
+section#about .wrap h2{
+    line-height : normal;
+    /*  행 간격  */
+    letter-spacing : .3em;
+    /*  글자 간격  */
+    padding-top: 70px;
+    font-size: 50px;
+    font-weight: 1000;
+    /*! text-align: center; */
+    color: #ff0079;
+}
+section h2{
+    text-transform: uppercase;
+}
+section#about .wrap .div1{
+    display: flex;
+    padding-top: 50px;
+}
+
+
+
+    /* 사진 부분 */
+section#about .wrap .div1 .aimg{
+    /*! border: solid burlywood; */
+    width: 35%;
+    /*! padding-top: 50px; */
+    /*! position: relative; */
+}
+section#about .wrap .div1 .aimg figure{
+    
+    position: relative;
+}
+section#about .wrap .div1 .aimg figure::before{
+    content: "";
+    width: 420px;
+    height: 190px;
+    /*! display: inline-block; */
+    background-color: #ff0079;
+    position: absolute;
+    left: 55px;
+    top: 180px;
+    border-radius: 50%;
+    transform: rotate(-25deg);
+}
+section#about .wrap .div1 .aimg img{
+    content: "";
+    width: 350px;
+    height: 350px;
+    top: 54px;
+    position: relative;
+}
+section#about .wrap .div1 .aimg .hash{
+    margin-top: 80px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 435px;
+    margin-left: 35px;
+}
+section#about .wrap .div1 .aimg .hash li{
+    font-size: 25px;
+    color: #d2d2d2;
+    /*! margin-top: 70px; */
+/*     margin-left: 20px; */
+    font-weight: 500;
+    line-height : 1.5;
+    letter-spacing : .1em;  
+    margin-left: 20px;
+}
+section#about .wrap .div1 .aimg ul li:not(:nth-child(6)):before{
+    content: "#";
+    font-size: 30px;
+    color: #d2d2d2;
+}
+section#about .wrap .div1 .aimg .hash li a{
+    color: #d2d2d2;
+    line-height: 1.5;
+    width: 115px;
+    display: inline-block;
+    margin-left: -5px;
+    text-align: center;
+    position: relative;
+}
+section#about .wrap .div1 .aimg ul li a:before{
+    content: "#";
+    font-size: 30px;
+    /*! color: #white; */
+}
+section#about .wrap .div1 .aimg ul li a:after{
+    content: "";
+    font-size: 0px;
+    color: #white;
+    width: 200px;
+    height: 20px;
+    background-image: url(../img/water-solid.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    background-position: 50%;
+    z-index: -1;
+    bottom: -3px;
+    left: -41px;
+}
+
+    /* 부연 설명 부분 */
+section#about .wrap .div1 .ainfo{
+    width: 60%;
+    margin: 0 auto;
+}
+
+section#about .wrap .div1 .ainfo .subinfo {
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+section#about .wrap .div1 .ainfo .subinfo > li{
+    font-size: 25px;
+    color: #000;
+    width: 770px;
+    height: 232px;
+    display: flex;
+    flex-wrap: wrap;
+    /*! box-sizing: border-box; */
+    background-color: white;
+    box-shadow: aqua;
+    /*! box-shadow: 8px 10px 20px 0px rgba(173, 173, 173); */
+    /*! box-shadow: 8px 10px 20px 0px rgba(255, 0, 121, 0.5); */
+}
+section#about .wrap .div1 .ainfo .subinfo > li:nth-child(2){
+    font-size: 25px;
+    color: #000;
+    width: 360px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    /*! box-sizing: border-box; */
+    background-color: white;
+}
+section#about .wrap .div1 .ainfo .subinfo > li:nth-child(3){
+    font-size: 25px;
+    color: #000;
+    width: 360px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    /*! box-sizing: border-box; */
+    background-color: white;
+}
+section#about .wrap .div1 .ainfo .subinfo > li:nth-child(3) ul{
+    flex-wrap: wrap;
+    margin: 25px;
+    gap: 30px;
+    margin-top: -39px;
+}
+section#about .wrap .div1 .ainfo .subinfo > li:nth-child(3) ul li{
+    font-size: 20px;
+    color: #939393;
+    font-weight: 500;
+    line-height : normal;
+    letter-spacing : .1em;  
+}
+section#about .wrap .div1 .ainfo .subinfo li h3{
+    font-size: 28px;
+    /*! color: #939393; */
+    margin: 25px;
+    font-weight: 500;
+    line-height : normal;
+    letter-spacing : .1em;  
+    height: 40px;
+}
+
+section#about .wrap .div1 .ainfo .subinfo li p{
+    font-size: 20px;
+    color: #939393;
+    margin: 25px;
+    font-weight: 500;
+    line-height : normal;
+    letter-spacing : .1em;  
+    margin-top: 0;
+}

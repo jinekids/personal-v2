@@ -1,0 +1,67 @@
+section#contact{
+    background-color: #101012;  
+    /*완성되면 백그라운드 지우기  f4f4f4 */
+   margin: 0 auto;
+   display: flex;
+   /* flex-direction: column;   */
+    /*  flex의 방향을 수직으로  */
+   justify-content: center;
+   align-items: center;
+   height: 500px;
+   /* border: solid; */
+}
+
+section#contact .wrap{
+    font-size: 25px;
+    height: 100%;
+    /* border: solid blue; */
+}
+
+section#contact .wrap h2{
+    line-height : normal;
+    /*  행 간격  */
+    letter-spacing : .3em;
+    /*  글자 간격  */
+    padding-top: 70px;
+    font-size: 50px;
+    font-weight: 1000;
+    color: #ff0079;
+}
+section#contact .wrap p{
+    line-height : normal;
+    letter-spacing : .3em;
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: #939393;
+}
+
+   /*  전체 div  */
+section#contact .wrap .address{
+    margin-top: 70px;
+    /* border: solid ; */
+    padding: 0 220px 0 220px;
+}
+section#contact .wrap .address .email{
+    row-gap: 60px;
+}
+section#contact .wrap .address .email p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*! margin-left: 400px; */
+    /*! margin-right: 400px; */
+    font-size: 25px;
+    color: white;
+    /*! background-color: #ff0079; */
+    text-align: center;
+    border-radius: 35px;
+}
+section#contact .wrap .address .kakaoqr{
+
+}
+section#contact .wrap .address .kakaoqr img{
+
+    width: 200px;
+    height: 200px;
+}

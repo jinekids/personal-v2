@@ -10,7 +10,6 @@ header{
 background-color: #101012;
   position: fixed;
   z-index: 10;
-  overflow-x: hidden;
 }
 
 header .wrap{
@@ -65,7 +64,6 @@ header .wrap>a{
 div#title{
   background-color: #101012;
   position: relative;
-  overflow-x: hidden;
 }
 
 
@@ -99,7 +97,7 @@ div#title div.wrap h3{
 }
 
 div#title div.wrap p{
-  font-size: 25px;
+  font-size: 20px;
   color: #fff;
 }
 

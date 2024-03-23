@@ -1,0 +1,109 @@
+section#portfolio{
+    background-color: white;  
+    /*완성되면 백그라운드 지우기  f4f4f4 */
+   margin: 0 auto;
+   display: flex;
+   /* flex-direction: column;   */
+    /*  flex의 방향을 수직으로  */
+   justify-content: center;
+   /*! align-items: center; */
+   /*! height: 100%; */
+/*    border: solid; */
+    min-height: 100vh;
+    position: relative;
+    /*! outline: 3px solid red; */
+}
+
+section#portfolio .wrap{
+    font-size: 25px;
+    height: 100%;
+    box-sizing: border-box;
+    min-height: 900px;
+}
+section#portfolio .wrap h2{
+    line-height : normal;
+    /*  행 간격  */
+    letter-spacing : .3em;
+    /*  글자 간격  */
+    padding-top: 100px;
+    font-size: 50px;
+    font-weight: 1000;
+    /*! text-align: center; */
+    color: #ff0079;
+}
+section#portfolio .wrap .web{
+    /*! border: 1px solid #eee; */
+    height: 100%;
+    box-sizing: border-box;
+    /*! position: relative; */
+    margin-top: 50px;
+}
+section#portfolio .wrap .web::before{
+    content: "Portfolio";
+    background-color: #ff006c;
+    padding: 25px 70px;
+    color: white;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -130px;
+    top: 210px;
+    font-size: 40px;
+    font-weight: 1000;
+    letter-spacing: 4px;
+    display: none;
+}
+section#portfolio .wrap .web .pf01{
+    /*! padding: calc((100% - 1000px) / 4) 0; */
+    height: 100%;
+    box-sizing: border-box;
+}
+section#portfolio .wrap .web .pf01>ul{
+    /*! border-radius: 20px; */
+    height: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    /*! row-gap: 30px; */
+    /*! justify-content: initial; */
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 100px;
+    row-gap: 20px;
+}
+section#portfolio .wrap .web .pf01 ul li{
+    margin-top: 50px;
+}
+
+section#portfolio .wrap .web .pf01 ul li:nth-child(even) > a{
+    /*! color: #666; */
+}
+section#portfolio .wrap .web .pf01 ul li a{
+    display: inline-block;
+    color: #222;
+}
+section#portfolio .wrap .web .pf01 ul li p{
+    margin-top: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+section#portfolio .wrap .web .pf01 ul li p a{
+    background: rgba(255,0,121,0.3);
+    width: 95px;
+    line-height: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+section#portfolio .wrap .web .pf01>p{
+    margin-top: 50px;
+    /*! font-weight: 400; */
+    text-align: end;
+    line-height: 200%;
+    color: #939393;
+}
+.hoverColor{
+/*     transform: translateY(-5px); */
+    color: #ff006c;
+}
+
+
+
